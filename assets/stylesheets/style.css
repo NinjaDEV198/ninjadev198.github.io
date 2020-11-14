@@ -2041,6 +2041,104 @@ header.hidden_header {
     .footer .copyright > span {
       color: #ff3838; }
 
+.c-section {
+  position: relative; }
+
+.o-container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 95rem; }
+
+.c-direction-block_wrapper {
+  margin-bottom: 31.25rem;
+  min-height: 65vh;
+  margin-top: -15vh; }
+
+.c-direction-block_item {
+  position: absolute;
+  font-size: 10vw;
+  white-space: nowrap;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1; }
+
+.c-direction-block_item span {
+  display: block;
+  background-color: #ffffff;
+  white-space: nowrap;
+  padding: 0 20px; }
+
+.c-direction-block {
+  position: absolute;
+  right: 0;
+  left: 0;
+  z-index: 1; }
+
+.c-direction-block {
+  top: -50vh;
+  bottom: -50vh; }
+
+.c-direction-block {
+  margin-top: 18.75rem; }
+
+.c-direction-block_item.-one {
+  top: 40%;
+  transform: translateX(-20vw) rotate(15deg); }
+
+.c-direction-block_item.-two {
+  top: 45%;
+  transform: rotate(-9deg); }
+
+.c-direction-block_item.-three {
+  top: 30%;
+  transform: rotate(9deg); }
+
+.c-direction-block_item.-four {
+  top: 70%;
+  transform: rotate(-3deg); }
+
+.c-direction-block_item.-five {
+  top: 50%;
+  transform: translateX(-10vw) rotate(3deg); }
+
+#direction {
+  justify-content: center;
+  align-items: center; }
+
+@media (max-width: 768px) {
+  .c-direction-block_item {
+    width: 100%;
+    text-align: center;
+    font-size: 22px; }
+
+  .c-direction-block_item span {
+    display: inline-block; }
+
+  .c-direction-block_item.-one {
+    transform: translateX(0) rotate(15deg); }
+
+  .c-direction-block_item.-two {
+    transform: translateX(0) rotate(-9deg); }
+
+  .c-direction-block_item.-four {
+    top: 50%;
+    transform: translateX(0) rotate(0deg); }
+
+  .c-direction-block_item.-five {
+    top: 38%;
+    text-align: right;
+    transform: translateX(0) rotate(3deg); }
+
+  .c-direction-block_item {
+    font-size: 20px; }
+
+  .c-direction-block_wrapper {
+    margin-bottom: 0rem;
+    min-height: 25vh;
+    margin-top: 0vh; }
+
+  .c-direction-block {
+    margin-top: 5rem; } }
 /* *********************************************************************************** */
 /* CONTENT_PRODUCT */
 /* 1. CONTENT PRODUCT */
