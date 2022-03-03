@@ -8,13 +8,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/javascripts/swiper-5.4.5/package/css/swiper.min.css">
-	<link rel="stylesheet" href="assets/stylesheets/locomotive-scroll.min.css">
 	<link rel="stylesheet" href="assets/stylesheets/style.css">
 </head>
-<body>
+<body class="preloading">
 
-
-	<div data-scroll-container class="container-fluid main plr-md-0" data-menu="home">
+	<div class="loader">
+		<svg id="Layer_load" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 134.6">
+			<g>
+				<path d="M59.3,114.8v3h-.1v.2H13.9l.8-3.6a10.6,10.6,0,0,1,.4-1.9c.1-.6.3-1.2.4-1.7v-.7c.1-.4.3-.8.4-1.3h0a4.9,4.9,0,0,1,.4-1.1c.1-.4.3-.8.4-1.2l.6-1.5c.2-.4.3-.8.5-1.3l.3-.5.5-1.2.3-.4a3.4,3.4,0,0,1,.6-1.2,1.7,1.7,0,0,1,.2-.5H20c.3-.5.5-1,.8-1.4a7.5,7.5,0,0,1,.7-1.2V97l.2-.3v-.2l.9-1.3,1.1-1.5.9-1.2h.1l.4-.5.9-1.1.2-.2,1-1.1.3-.4L29,87.9a49,49,0,0,1,12.5-9.3H19A65,65,0,0,0,5.2,99.1,66.2,66.2,0,0,0,0,124.7v6.8H72.6V72.6h0v-58h45.5l-.8,3.6A51.9,51.9,0,0,1,103,44.7c-1.5,1.5-3.1,2.9-4.8,4.3h19.2a68.9,68.9,0,0,0,9.4-15.6A67.7,67.7,0,0,0,132,7.8V1H59.3Z"/>
+				<path d="M13.6,59V13.9l3.6.7A51.8,51.8,0,0,1,43.9,28.9l1.4,1.5v-18A64.6,64.6,0,0,0,32.5,5.2,64,64,0,0,0,6.9,0H0V68.6H45.3V59H13.6Z"/>
+				<path d="M117.4,68.6v49.1l-3.6-.8a51.7,51.7,0,0,1-26.6-14.2c-.2-.2-.4-.3-.5-.5v17.7a64.4,64.4,0,0,0,11.8,6.5,65.7,65.7,0,0,0,25.6,5.1H131V59H86.7v9.6h30.7Z"/>
+				<polygon class="cls-1" points="75.7 17.6 75.7 17.6 75.7 17.6 75.7 134.6 75.8 134.6 75.8 75.6 75.8 75.6 75.8 74.9 75.8 65.8 75.8 17.6 75.8 17.6 75.8 17.6 75.7 17.6"/>
+			</g>
+		</svg>
+	</div>
+	<div class="container-fluid main plr-md-0 smooth-scrollbar" data-menu="home" id="body-inner">
 
 		<header class="menu_home_header">
 			<div class="menu_link none_menu_link">
@@ -51,18 +59,8 @@
 							</a>
 						</li>
 						<li>
-							<a href="">
+							<a href="news.html">
 								News
-								<section>
-									<svg class="Layer_hover_menu" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 345.8 123.5">
-										<path class="cls-1" d="M21.2,57.5c96-106,320-40,324,5s-124,110-345,0"/>
-									</svg>
-								</section>
-							</a>
-						</li>
-						<li>
-							<a href="">
-								contact
 								<section>
 									<svg class="Layer_hover_menu" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 345.8 123.5">
 										<path class="cls-1" d="M21.2,57.5c96-106,320-40,324,5s-124,110-345,0"/>
@@ -88,7 +86,7 @@
 				</div>
 				<div class="logo">
 					<section>
-						<a href="">
+						<a href="index.html">
 							<svg id="Layer_logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 134.6">
 								<g>
 									<path d="M59.3,114.8v3h-.1v.2H13.9l.8-3.6a10.6,10.6,0,0,1,.4-1.9c.1-.6.3-1.2.4-1.7v-.7c.1-.4.3-.8.4-1.3h0a4.9,4.9,0,0,1,.4-1.1c.1-.4.3-.8.4-1.2l.6-1.5c.2-.4.3-.8.5-1.3l.3-.5.5-1.2.3-.4a3.4,3.4,0,0,1,.6-1.2,1.7,1.7,0,0,1,.2-.5H20c.3-.5.5-1,.8-1.4a7.5,7.5,0,0,1,.7-1.2V97l.2-.3v-.2l.9-1.3,1.1-1.5.9-1.2h.1l.4-.5.9-1.1.2-.2,1-1.1.3-.4L29,87.9a49,49,0,0,1,12.5-9.3H19A65,65,0,0,0,5.2,99.1,66.2,66.2,0,0,0,0,124.7v6.8H72.6V72.6h0v-58h45.5l-.8,3.6A51.9,51.9,0,0,1,103,44.7c-1.5,1.5-3.1,2.9-4.8,4.3h19.2a68.9,68.9,0,0,0,9.4-15.6A67.7,67.7,0,0,0,132,7.8V1H59.3Z"/>
@@ -121,14 +119,14 @@
 						</form>
 					</section>
 					<section class="login">
-						<a href="" class="button_link">
+						<a href="sign-in.html" class="button_link">
 							sign in
 						</a>
 					</section>
 				</div>
 			</div>
 		</header>	
-		<section class="layer_product">
+		<section class="layer_product first">
 			<section class="layer_background_product"></section>
 			<form>
 				<section></section>
@@ -259,12 +257,12 @@
 			</form>
 		</section>
 
-		<div class="content">
+		<div class="content" id="scroll-container">
 			<!-- start header home -->
 			<div class="header_home" data-scroll-section>
 				<div class="row">
-					<div data-scroll data-scroll-delay="0.1" data-scroll-speed="1" class="col-12 col-md-7 slide_header_home">
-						<div class="swiper-container_home">
+					<div class="col-12 col-md-7 slide_header_home">
+						<div class="swiper-container_home random_items_array">
 							<div class="swiper-wrapper">
 								<div class="swiper-slide">
 									<div class="once_slide_home">
@@ -336,7 +334,7 @@
 							News Product
 						</article>
 						<div class="row">
-							<div data-scroll data-scroll-delay="0.03" data-scroll-speed="1" class="col-6 once_post">
+							<div class="col-6 once_post random_items_array">
 								<section>
 									<section class="background_once_post">
 										<svg id="Layer_background_once_post" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206 139.6">
@@ -358,7 +356,7 @@
 									</article>
 								</section>
 							</div>
-							<div data-scroll data-scroll-delay="0.09" data-scroll-speed="1" class="col-6 once_post">
+							<div class="col-6 once_post random_items_array">
 								<section>
 									<section class="background_once_post background_once_post_2">
 										<svg id="Layer_background_once_post" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206 139.6">
@@ -380,7 +378,7 @@
 									</article>
 								</section>
 							</div>
-							<div class="col-6 once_post">
+							<div class="col-6 once_post random_items_array">
 								<section>
 									<section class="background_once_post background_once_post_3">
 										<svg id="Layer_background_once_post" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206 139.6">
@@ -402,7 +400,7 @@
 									</article>
 								</section>
 							</div>
-							<div data-scroll data-scroll-delay="0.04" data-scroll-speed="1" class="col-6 once_post">
+							<div class="col-6 once_post random_items_array">
 								<section>
 									<section class="background_once_post background_once_post_4">
 										<svg id="Layer_background_once_post" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 206 139.6">
@@ -431,9 +429,9 @@
 			<!-- end header home -->
 
 			<!-- start network link -->
-			<div class="network_link" data-scroll-section>
+			<div class="network_link">
 				<div class="row">
-					<div data-scroll data-scroll-delay="0.05" data-scroll-speed="2" class="col-12 col-md-12 col-lg-6 plr-sm-0 network_link_left">
+					<div class="col-12 col-md-12 col-lg-6 plr-sm-0 network_link_left">
 						<div class="img_network_link_left">
 							<img src="assets/images/network_link.jpg" class="img-fluid" alt="">
 						</div>
@@ -451,7 +449,7 @@
 							</article>
 						</div>
 					</div>
-					<div data-scroll data-scroll-delay="0.1" data-scroll-speed="2" class="col-12 col-md-12 col-lg-6 plr-sm-0 network_link_right">
+					<div class="col-12 col-md-12 col-lg-6 plr-sm-0 network_link_right">
 						<div class="img_network_link_right">
 							<img src="assets/images/network_link.jpg" class="img-fluid" alt="">
 						</div>
@@ -497,15 +495,15 @@
 
 
 			<!-- start product home -->
-			<div class="product_home"  data-scroll-section>
+			<div class="product_home" >
 				<article>
-					<article>
+					<article id="title_1">
 						Brand new product <br>
 						<span>
 							Browse the huge variety of our product
 						</span>
 					</article>
-					<section>
+					<section class="button_filter">
 						<ul>
 							<li class="">
 								View all
@@ -521,7 +519,7 @@
 				</article>
 				<div class="product">
 					<div class="row">
-						<div data-scroll data-scroll-delay="0.01" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_1">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_1">
 							<div>
 								<div class="background_product">
 									<section>
@@ -555,19 +553,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -605,7 +590,7 @@
 								</section>
 							</div>
 						</div>
-						<div data-scroll data-scroll-delay="0.02" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_2">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_2">
 							<div>
 								<div class="background_product">
 									<section>
@@ -639,19 +624,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -689,7 +661,7 @@
 								</section>
 							</div>
 						</div>
-						<div data-scroll data-scroll-delay="0.03" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_3">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_3">
 							<div>
 								<div class="background_product">
 									<section>
@@ -723,19 +695,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -773,7 +732,7 @@
 								</section>
 							</div>
 						</div>
-						<div data-scroll data-scroll-delay="0.04" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_4">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_4">
 							<div>
 								<div class="background_product">
 									<section>
@@ -807,19 +766,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -857,7 +803,7 @@
 								</section>
 							</div>
 						</div>
-						<div data-scroll data-scroll-delay="0.05" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_5">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_5">
 							<div>
 								<div class="background_product">
 									<section>
@@ -891,19 +837,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -941,7 +874,7 @@
 								</section>
 							</div>
 						</div>
-						<div data-scroll data-scroll-delay="0.06" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_6">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_6">
 							<div>
 								<div class="background_product">
 									<section>
@@ -975,19 +908,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -1025,7 +945,7 @@
 								</section>
 							</div>
 						</div>
-						<div data-scroll data-scroll-delay="0.07" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_7">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_7">
 							<div>
 								<div class="background_product">
 									<section>
@@ -1059,19 +979,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -1109,7 +1016,7 @@
 								</section>
 							</div>
 						</div>
-						<div data-scroll data-scroll-delay="0.08" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_8">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_8">
 							<div>
 								<div class="background_product">
 									<section>
@@ -1143,19 +1050,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -1193,7 +1087,7 @@
 								</section>
 							</div>
 						</div>
-						<div data-scroll data-scroll-delay="0.09" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_5">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_5">
 							<div>
 								<div class="background_product">
 									<section>
@@ -1227,19 +1121,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -1277,7 +1158,7 @@
 								</section>
 							</div>
 						</div>
-						<div data-scroll data-scroll-delay="0.1" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_6">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_6">
 							<div>
 								<div class="background_product">
 									<section>
@@ -1311,19 +1192,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -1361,7 +1229,7 @@
 								</section>
 							</div>
 						</div>
-						<div data-scroll data-scroll-delay="0.11" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_7">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_7">
 							<div>
 								<div class="background_product">
 									<section>
@@ -1395,19 +1263,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -1445,7 +1300,7 @@
 								</section>
 							</div>
 						</div>
-						<div data-scroll data-scroll-delay="0.12" data-scroll-speed="2" class="col-12 col-md-6 col-lg-6 col-xl-3 once_product once_product_8">
+						<div class="col-12 col-md-6 col-lg-6 col-xl-3 once_product array_Animations once_product_8">
 							<div>
 								<div class="background_product">
 									<section>
@@ -1479,19 +1334,6 @@
 												</li>
 											</ul>
 										</article>
-										<svg id="Layer_background_product_top" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 288.6">
-											<defs>
-												<style>
-													#Layer_background_product_top .cls-1 {
-														fill: rgba(0, 0, 0, 0.3);
-													}
-												</style>
-											</defs>
-											<polygon class="cls-1" points="260 0 0 0 0 288.6 260 225.6 260 0"/>
-										</svg>
-										<section>
-											Learn More
-										</section>
 									</section>
 								</a>
 								<section class="content_product">
@@ -1543,8 +1385,8 @@
 
 
 			<!-- start special features -->
-			<div class="special_features" data-scroll-section>
-				<article class="title">
+			<div class="special_features">
+				<article class="title title_arrays">
 					special features <br>
 					<span>
 						Get special services from our shop
@@ -1552,7 +1394,7 @@
 				</article>
 				<div class="content_special_features">
 					<div class="row">
-						<div data-scroll data-scroll-delay="0.2" data-scroll-speed="1" class="col-6 col-md-4 col-lg-2 once_special_features">
+						<div class="col-6 col-md-4 col-lg-2 once_special_features specialArrays">
 							<div>
 								<svg id="Layer_icon_home_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70.5 58.9">
 									<defs>
@@ -1579,7 +1421,7 @@
 								</article>
 							</section>
 						</div>
-						<div data-scroll data-scroll-delay="0.17" data-scroll-speed="2" class="col-6 col-md-4 col-lg-2 once_special_features">
+						<div class="col-6 col-md-4 col-lg-2 once_special_features specialArrays">
 							<div>
 								<svg id="Layer_icon_home_2" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 58.6 50.6">
 									<defs>
@@ -1606,7 +1448,7 @@
 								</article>
 							</section>
 						</div>
-						<div data-scroll data-scroll-delay="0.14" data-scroll-speed="1" class="col-6 col-md-4 col-lg-2 once_special_features">
+						<div class="col-6 col-md-4 col-lg-2 once_special_features specialArrays">
 							<div>
 								<svg id="Layer_icon_home_3" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64.8 43">
 									<defs>
@@ -1632,7 +1474,7 @@
 								</article>
 							</section>
 						</div>
-						<div data-scroll data-scroll-delay="0.11" data-scroll-speed="1.5" class="col-6 col-md-4 col-lg-2 once_special_features">
+						<div class="col-6 col-md-4 col-lg-2 once_special_features specialArrays">
 							<div>
 								<svg id="Layer_icon_home_4" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 74.4 73">
 									<defs>
@@ -1686,7 +1528,7 @@
 								</article>
 							</section>
 						</div>
-						<div data-scroll data-scroll-delay="0.08" data-scroll-speed="2.5" class="col-6 col-md-4 col-lg-2 once_special_features">
+						<div class="col-6 col-md-4 col-lg-2 once_special_features specialArrays">
 							<div>
 								<svg id="Layer_icon_home_5" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.1 51">
 									<defs>
@@ -1713,7 +1555,7 @@
 								</article>
 							</section>
 						</div>
-						<div data-scroll data-scroll-delay="0.05" data-scroll-speed="1" class="col-6 col-md-4 col-lg-2 once_special_features">
+						<div class="col-6 col-md-4 col-lg-2 once_special_features specialArrays">
 							<div>
 								<svg id="Layer_icon_home_6" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.4 83.2">
 									<defs>
@@ -1760,15 +1602,15 @@
 			<!-- end special features -->
 
 
-			<div class="news_feeds" data-scroll-section>
-				<article class="title">
+			<div class="news_feeds">
+				<article class="title title_arrays">
 					News Feeds <br>
 					<span>
 						Check it out every update
 					</span>
 				</article>
 				<div class="row">
-					<div data-scroll data-scroll-delay="0.1" data-scroll-speed="1.5" class="col-12 col-md-6 col-lg-4">
+					<div class="col-12 col-md-6 col-lg-4 news_arrays">
 						<a href="">
 							<div class="card_post">
 								<div class="img_card_post">
@@ -1789,7 +1631,7 @@
 							</div>
 						</a>
 					</div>
-					<div data-scroll data-scroll-delay="0.05" data-scroll-speed="0.5" class="col-12 col-md-6 col-lg-4">
+					<div class="col-12 col-md-6 col-lg-4 news_arrays">
 						<a href="">
 							<div class="card_post">
 								<div class="img_card_post">
@@ -1810,7 +1652,7 @@
 							</div>
 						</a>
 					</div>
-					<div data-scroll data-scroll-delay="0.1" data-scroll-speed="1.5" class="col-12 col-md-6 col-lg-4">
+					<div class="col-12 col-md-6 col-lg-4 news_arrays">
 						<a href="">
 							<div class="card_post">
 								<div class="img_card_post">
@@ -1841,42 +1683,12 @@
 				</section>
 			</div>
 
-			<section class="c-section" data-scroll-section=""  data-scroll-section-inview="">
-				<div class="o-container" id="scroll-direction">
-					<div class="c-direction-block_wrapper">
 
-						<div class="c-direction-block" id="direction">
-							<div class="c-direction-block_item -one">
-								<span class="c-direction-block_item_inner is-inview" data-scroll="" data-scroll-direction="horizontal" data-scroll-speed="7" data-scroll-target="#direction" >
-									I'm moving in this direction
-								</span>
-							</div>
-							<div class="c-direction-block_item -two">
-								<span class="c-direction-block_item_inner is-inview" data-scroll="" data-scroll-direction="horizontal" data-scroll-speed="-8" data-scroll-target="#direction">
-									And in this direction
-								</span>
-							</div>
-
-							<div class="c-direction-block_item -four">
-								<span class="c-direction-block_item_inner is-inview" data-scroll="" data-scroll-direction="horizontal" data-scroll-speed="15" data-scroll-target="#direction" >
-									I can also go in this direction
-								</span>
-							</div>
-							<div class="c-direction-block_item -five">
-								<span class="c-direction-block_item_inner is-inview" data-scroll="" data-scroll-direction="horizontal" data-scroll-speed="-20" data-scroll-target="#direction" data-scroll-delay="0.05" >
-									Ok, enough!!!!
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<footer data-scroll-section>
+			<footer>
 				<div class="subscribe_email">
-					<div>
+					<div class="subscribe_animation">
 						<div class="row">
-							<div class="col-12 col-lg-6 title_subscribe_email">
+							<div class="col-12 col-lg-6 title_subscribe_email subscribe_animation">
 								<div>
 									<div>
 										<svg id="Layer_subscribe_email" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 186 203.6">
@@ -1896,7 +1708,7 @@
 									</section>
 								</div>
 							</div>
-							<div class="col-12 col-lg-6 input_subscribe_email">
+							<div class="col-12 col-lg-6 input_subscribe_email subscribe_animation">
 								<form>
 									<label>
 										<input type="email" placeholder="Enter your email address..." required>
@@ -1943,36 +1755,36 @@
 							</div>
 						</div>
 						<div class="col-6 col-md-4 col-lg-2 menu_link_footer">
-							<article>
+							<article class="footer_Link_Arrays">
 								Social Media
 							</article>
 							<ul>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Facebook
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Twitter
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Behance
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Dribbble
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Linkedin
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Youtube
 									</a>
@@ -1980,36 +1792,36 @@
 							</ul>
 						</div>
 						<div class="col-6 col-md-4 col-lg-2 menu_link_footer">
-							<article>
+							<article class="footer_Link_Arrays">
 								Location
 							</article>
 							<ul>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										New York
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Tokyo
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Dhaka
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Chittagong
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										China
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Japan
 									</a>
@@ -2017,36 +1829,36 @@
 							</ul>
 						</div>
 						<div class="col-6 col-md-4 col-lg-2 menu_link_footer">
-							<article>
+							<article class="footer_Link_Arrays">
 								About
 							</article>
 							<ul>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Contact Us
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										FAQ
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Terms & Conditions
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Privacy Policy
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Whole Sale
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Direction
 									</a>
@@ -2054,36 +1866,36 @@
 							</ul>
 						</div>
 						<div class="col-6 col-md-4 col-lg-2 menu_link_footer">
-							<article>
+							<article class="footer_Link_Arrays">
 								About
 							</article>
 							<ul>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Contact Us
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										FAQ
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Terms & Conditions
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Privacy Policy
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Whole Sale
 									</a>
 								</li>
-								<li>
+								<li class="footer_Link_Arrays">
 									<a href="">
 										Direction
 									</a>
@@ -2102,17 +1914,12 @@
 
 	<script src="assets/javascripts/jquery-3.3.1.min.js"></script>
 	<script src="assets/stylesheets/fontawesome-free-5.13.0-web/js/all.min.js"></script>
-	<script src="assets/javascripts/tweenmax/gsap.min.js"></script>
+	<script src="assets/javascripts/gsap.min.js"></script>
 	<script src="assets/javascripts/swiper-5.4.5/package/js/swiper.min.js"></script>
 	<script src="assets/javascripts/ScrollTrigger.min.js"></script>
-	<script src="assets/javascripts/locomotive-scroll.min.js"></script>
+	<script src="assets/javascripts/smooth-scrollbar.js"></script>
 
 	<script src="assets/javascripts/main.js"></script>
-	<script>
-		const scroll = new LocomotiveScroll({
-			el: document.querySelector('[data-scroll-container]'),
-			smooth: true
-		});
-	</script>
+	<script src="assets/javascripts/scrollAnimation.js"></script>
 </body>
 </html>
